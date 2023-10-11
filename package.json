@@ -1,0 +1,30 @@
+{
+  "name": "design-tokens-test",
+  "version": "0.0.1",
+  "description": "Transformation pipeline for design tokens from Tokens Studio for Figma",
+  "scripts": {
+    "build": "node build-output.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ty2k/design-tokens-test.git"
+  },
+  "keywords": [
+    "design system",
+    "design tokens",
+    "figma",
+    "tokens studio",
+    "token-transformer",
+    "style-dictionary"
+  ],
+  "author": "Tyler Krys <Tyler.Krys@gov.bc.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ty2k/design-tokens-test/issues"
+  },
+  "homepage": "https://github.com/ty2k/design-tokens-test#readme",
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.11.5",
+    "style-dictionary": "^3.8.0"
+  }
+}
